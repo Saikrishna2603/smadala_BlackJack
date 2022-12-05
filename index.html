@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./static/images/blackJack.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body style="overflow: hidden;">
+    <div class="game-container">
+        <div class="game-heading">
+            <img height=150 src="./static/images/blackJack.png" alt="logo">
+            <div>
+                <h1 class = "animate__animated animate__heartBeat animate__infinite"><strong>BLACKJACK GAME</strong></h1>
+                <h2><span id="blackjack-result">Let's Play!!</span></h2>
+            </div>
+            <div class="wrapper">
+                <a id="blackjack-hit-button"><span>Hit</span></a>
+                <a id="blackjack-stand-button"><span>Stand</span></a>
+                <a id="blackjack-deal-button"><span>Deal</span></a>
+            </div>
+        </div>
+        <div class="game-board-container">
+            <div class="flex-blackjack-row-1">
+                <div id="your-box">
+                    <h2>You : <span id="your-blackjack-result">0</span></h2>
+                </div>
+                
+                <div id="dealer-box">
+                    <h2>Dealer : <span id="dealer-blackjack-result">0</span></h2>
+                </div>
+            </div>
+            
+            <div class="flex-blackjack-row-2">
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex-blackjack-row-3">
+        </div>
+    </div>
+    <script src="./static/script.js"></script>
+</body>
+</html>
